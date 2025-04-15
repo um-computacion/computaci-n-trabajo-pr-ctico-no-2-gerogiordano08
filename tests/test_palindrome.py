@@ -1,5 +1,5 @@
 import unittest
-#from src.palindrome import is_palindrome
+from src.palindrome import is_palindrome
 
 class TestPalindrome(unittest.TestCase):
     def test_palindromes_simples(self):
@@ -22,7 +22,7 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome(""))
         self.assertTrue(is_palindrome("a"))
         self.assertTrue(is_palindrome("ReCoNoCeR"))
-        self.assertTrue(is_palindrome("No 'x' in Nixon"))
+        self.assertTrue(is_palindrome("No 'x' in Nixon?"))
         self.assertTrue(is_palindrome("12321"))
 
 if __name__ == '__main__':
