@@ -11,14 +11,8 @@ class TestPalindrome(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-#from src.palindrome import clean_text
 
-class TestPalindrome(unittest.TestCase):
-    def test_text_cleaner(self):
-        self.assertEqual(is_palindrome("A man, a plan, a canal: Panama!"), "amanaplanacanalpanama")
-        self.assertEqual(is_palindrome("No 'x' in Nixon."), "noxinnixon")
-        self.assertEqual(is_palindrome("¡Buen dia!"), "buendia")
+
     
-if __name__ == '__main__':
-    unittest.main()
+
         
